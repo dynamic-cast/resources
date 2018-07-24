@@ -9,6 +9,13 @@ Bartek's coding blog
 Discussions, articles and news about the C++ programming language or programming in C++.
 > https://www.reddit.com/r/cpp/
 
+# youtube
+'C++ Weekly' channel.
+> https://www.youtube.com/user/lefticus1
+
+CppCon conference videos.
+> https://www.youtube.com/user/CppCon
+
 # books
 A Tour of C++ by Bjarne Stroustrup
 > Beginner friendly, does not assume prior knowledge of C++.
