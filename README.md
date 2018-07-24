@@ -5,6 +5,10 @@ Helpful resources for general purpose C++ :)
 Bartek's coding blog
 > https://www.bfilipek.com/
 
+# reddit
+Discussions, articles and news about the C++ programming language or programming in C++.
+> https://www.reddit.com/r/cpp/
+
 # books
 A Tour of C++ by Bjarne Stroustrup
 > Beginner friendly, does not assume prior knowledge of C++.
