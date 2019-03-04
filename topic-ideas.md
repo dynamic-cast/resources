@@ -1,4 +1,21 @@
-- GDB introduction
-- Qt introduction
-- Valgrind and code profiling tools
-- Move semantics
+- [ ] GDB introduction
+- [ ] Qt introduction
+- [ ] Valgrind and code profiling tools
+- [ ] c++17 parallelism
+- [ ] c++17 move semantics
+- [ ] c++17 std::string_view
+- [ ] c++17 std::variant/optional
+- [ ] c++ memory model
+- [ ] inline keyword
+- [ ] constexpr
+- [ ] mutexes/locking/etc
+- [ ] concurrency in c++ and beyond
+- [ ] template metaprogramming
+- [ ] OpenFrameworks intro
+- [ ] SFINAE/tag dispatching
+- [ ] Bring Your Own Boost (a useful boost library show and tell)
+- [ ] error and exception handling
+- [ ] testing frameworks
+
+- [x] move semantics
+- [x] search algorithms
