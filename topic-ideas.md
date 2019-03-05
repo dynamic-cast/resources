@@ -11,11 +11,11 @@
 - [ ] mutexes/locking/etc
 - [ ] concurrency in c++ and beyond
 - [ ] template metaprogramming
-- [ ] OpenFrameworks intro
+- [ ] OpenFrameworks intro (Camila)
 - [ ] SFINAE/tag dispatching
 - [ ] Bring Your Own Boost (a useful boost library show and tell)
 - [ ] error and exception handling
 - [ ] testing frameworks
-
+- [ ] Encryption intro (Camila)
 - [x] move semantics
 - [x] search algorithms
