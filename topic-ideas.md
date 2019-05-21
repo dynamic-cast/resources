@@ -8,7 +8,7 @@
 - [ ] c++ memory model
 - [ ] inline keyword
 - [ ] constexpr
-- [ ] mutexes/locking/etc
+- [x] mutexes/locking/etc
 - [ ] concurrency in c++ and beyond
 - [ ] template metaprogramming
 - [ ] OpenFrameworks intro (Camila)
