@@ -17,16 +17,16 @@ C++14 Features
 - [ ] Sized deallocation
 
 ## Library Features:
-- [ ] User-defined literals for standard library types, <chrono> and <string>
+- [ ] User-defined literals for standard library types, \<chrono\> and \<string\>
 - [ ] Compile-time integer sequences: std::integer_sequence
 - [ ] Std::make_unique
 - [ ] Shared mutexes and locking: std::shared_timed_mutex
 - [ ] Heterogeneous lookup in associative containers
-- [ ] Tuple addressing via type: std::get<T>()
-- [ ] Constexpr for: <chrono>, <complex>, <array>, <init_list>, <utility>, <tuple>
+- [ ] Tuple addressing via type: std::get\<T\>()
+- [ ] Constexpr for: \<chrono\>, \<complex\>, \<array\>, \<init_list\>, \<utility\>, \<tuple\>
 - [ ] Improved std::integral_constant
 - [ ] Null forward iterators
 - [ ] Std::quoted
 - [ ] std::exchange
-- [ ] “Fixing constexpr member functions without const”
+- [ ] “Fixing constexpr member functions without const”
 - [ ] Dual-Range std::equal, std::is_permutation, std::mismatch
