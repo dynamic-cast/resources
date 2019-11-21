@@ -1,7 +1,7 @@
 C++14 Features
 
 ## Language Features
-- [ ] Binary literals
+- [x] Binary literals: https://github.com/AnthonyCalandra/modern-cpp-features#binary-literals
 - [ ] Digit separators
 - [ ] Generic lambda expressions
 - [ ] Lambda capture initialisers (init-capture)
