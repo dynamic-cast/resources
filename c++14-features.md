@@ -8,6 +8,7 @@ C++14 Features
 - [x] Return type deduction for normal functions: https://en.wikipedia.org/wiki/C%2B%2B14#Function_return_type_deduction
 - [ ] decltype(auto) - Alternate type deduction on declaration:
 https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
+
 https://www.youtube.com/watch?v=KiidqvYiBuc
 - [ ] Relaxing constraints on constexpr functions: https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions
 - [ ] Variable templates
