@@ -12,7 +12,7 @@ https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
 https://www.youtube.com/watch?v=KiidqvYiBuc
 - [ ] Relaxing constraints on constexpr functions: https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions
 - [ ] Variable templates
-- [ ] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
+- [x] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
 - [ ] Aggregate member initialisation
 - [ ] Tweaked wording for contextual conversions
 - [ ] Clarifying memory allocation
