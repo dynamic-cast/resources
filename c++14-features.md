@@ -3,9 +3,9 @@ C++14 Features
 ## Language Features
 - [x] Binary literals: https://github.com/AnthonyCalandra/modern-cpp-features#binary-literals
 - [x] Digit separators: https://en.wikipedia.org/wiki/C%2B%2B14#Digit_separators
-- [ ] Generic lambda expressions: https://github.com/AnthonyCalandra/modern-cpp-features#generic-lambda-expressions
-- [ ] Lambda capture initialisers (init-capture): https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-initializers
-- [ ] Return type deduction for normal functions: https://en.wikipedia.org/wiki/C%2B%2B14#Function_return_type_deduction
+- [x] Generic lambda expressions: https://github.com/AnthonyCalandra/modern-cpp-features#generic-lambda-expressions
+- [x] Lambda capture initialisers (init-capture): https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-initializers
+- [x] Return type deduction for normal functions: https://en.wikipedia.org/wiki/C%2B%2B14#Function_return_type_deduction
 - [ ] decltype(auto) - Alternate type deduction on declaration
 - [ ] Relaxing constraints on constexpr functions
 - [ ] Variable templates
