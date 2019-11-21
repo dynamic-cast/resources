@@ -9,7 +9,7 @@ C++14 Features
 - [ ] decltype(auto) - Alternate type deduction on declaration
 - [ ] Relaxing constraints on constexpr functions
 - [ ] Variable templates
-- [ ] [[deprecated]] attribute
+- [x] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
 - [ ] Aggregate member initialisation
 - [ ] Tweaked wording for contextual conversions
 - [ ] Clarifying memory allocation
