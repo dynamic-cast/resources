@@ -5,7 +5,7 @@ C++14 Features
 - [x] Digit separators: https://en.wikipedia.org/wiki/C%2B%2B14#Digit_separators
 - [ ] Generic lambda expressions: https://github.com/AnthonyCalandra/modern-cpp-features#generic-lambda-expressions
 - [ ] Lambda capture initialisers (init-capture): https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-initializers
-- [ ] Return type deduction for normal functions
+- [ ] Return type deduction for normal functions: https://en.wikipedia.org/wiki/C%2B%2B14#Function_return_type_deduction
 - [ ] Alternate type deduction on declaration
 - [ ] decltype(auto)
 - [ ] Relaxing constraints on constexpr functions
