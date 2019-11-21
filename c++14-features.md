@@ -8,7 +8,7 @@ C++14 Features
 - [x] Return type deduction for normal functions: https://en.wikipedia.org/wiki/C%2B%2B14#Function_return_type_deduction
 - [ ] decltype(auto) - Alternate type deduction on declaration:
 https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
-- [ ] Relaxing constraints on constexpr functions: https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions https://www.modernescpp.com/index.php/constexpr-functions
+- [x] Relaxing constraints on constexpr functions: https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions https://www.modernescpp.com/index.php/constexpr-functions
 - [ ] Variable templates
 - [x] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
 - [ ] Aggregate member initialisation
