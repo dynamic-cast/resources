@@ -1,6 +1,6 @@
 C++14 Features
 
-- [ ] Language Features
+## Language Features
 - [ ] Binary literals
 - [ ] Digit separators
 - [ ] Generic lambda expressions
@@ -15,8 +15,8 @@ C++14 Features
 - [ ] Tweaked wording for contextual conversions
 - [ ] Clarifying memory allocation
 - [ ] Sized deallocation
-- [ ] 
-- [ ] Library Features:
+
+## Library Features:
 - [ ] User-defined literals for standard library types, <chrono> and <string>
 - [ ] Compile-time integer sequences: std::integer_sequence
 - [ ] Std::make_unique
