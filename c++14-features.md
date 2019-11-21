@@ -6,8 +6,7 @@ C++14 Features
 - [ ] Generic lambda expressions: https://github.com/AnthonyCalandra/modern-cpp-features#generic-lambda-expressions
 - [ ] Lambda capture initialisers (init-capture): https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-initializers
 - [ ] Return type deduction for normal functions: https://en.wikipedia.org/wiki/C%2B%2B14#Function_return_type_deduction
-- [ ] Alternate type deduction on declaration
-- [ ] decltype(auto)
+- [ ] decltype(auto) - Alternate type deduction on declaration
 - [ ] Relaxing constraints on constexpr functions
 - [ ] Variable templates
 - [ ] [[deprecated]] attribute
