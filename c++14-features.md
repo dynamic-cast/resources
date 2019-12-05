@@ -15,7 +15,7 @@ https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
 Super concise example from the proposal: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3653.html
 - [ ] Tweaked wording for contextual conversions
 - [x] Clarifying memory allocation: This one is just about making some wording in the standard documents non-ambiguous: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3664.html
-- [ ] Sized deallocation: See 3.7.4 Dynamic storage duration in http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3778.html; 
+- [x] Sized deallocation: See 3.7.4 Dynamic storage duration in http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3778.html; 
 An extra method for declaring a delete operator was added. You can declare a global delete operator that takes a `void*` to the memory you want to delete as well as the size of that memory. Useful in low-level use cases, e.g. when working with HW sensors or in embedded contexts (we think).
 
 ## Library Features:
