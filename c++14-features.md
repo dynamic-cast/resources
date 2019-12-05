@@ -11,7 +11,7 @@ https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
 - [x] Relaxing constraints on constexpr functions: https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions https://www.modernescpp.com/index.php/constexpr-functions
 - [ ] Variable templates http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3651.pdf
 - [x] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
-- [ ] Aggregate member initialisation
+- [ ] Aggregate member initialisation https://stackoverflow.com/questions/4178175/what-are-aggregates-and-pods-and-how-why-are-they-special/27511360#27511360 https://en.cppreference.com/w/cpp/language/aggregate_initialization
 - [ ] Tweaked wording for contextual conversions
 - [ ] Clarifying memory allocation: This one is just about making some wording in the standard documents non-ambiguous: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3664.html
 - [ ] Sized deallocation: See 3.7.4 Dynamic storage duration in: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3778.html 
