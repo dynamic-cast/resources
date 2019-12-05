@@ -9,7 +9,7 @@ C++14 Features
 - [ ] decltype(auto) - Alternate type deduction on declaration:
 https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
 - [x] Relaxing constraints on constexpr functions: https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions https://www.modernescpp.com/index.php/constexpr-functions
-- [ ] Variable templates
+- [ ] Variable templates http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3651.pdf
 - [x] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
 - [ ] Aggregate member initialisation
 - [ ] Tweaked wording for contextual conversions
