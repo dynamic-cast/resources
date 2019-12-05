@@ -14,7 +14,7 @@ https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
 - [ ] Aggregate member initialisation
 - [ ] Tweaked wording for contextual conversions
 - [ ] Clarifying memory allocation: This one is just about making some wording in the standard documents non-ambiguous: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3664.html
-- [ ] Sized deallocation
+- [ ] Sized deallocation: See 3.7.4 Dynamic storage duration in: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3778.html 
 
 ## Library Features:
 - [ ] User-defined literals for standard library types, \<chrono\> and \<string\>
