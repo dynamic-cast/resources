@@ -13,7 +13,7 @@ https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
 - [x] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
 - [ ] Aggregate member initialisation
 - [ ] Tweaked wording for contextual conversions
-- [ ] Clarifying memory allocation
+- [ ] Clarifying memory allocation: This one is just about making some wording in the standard documents non-ambiguous: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3664.html
 - [ ] Sized deallocation
 
 ## Library Features:
