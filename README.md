@@ -28,4 +28,4 @@ Effective C++ by Scott Meyers
 # articles
 
 > Offers a list and a small introduction about C++ new features
-https://github.com/AnthonyCalandra/modern-cpp-features
+> https://github.com/AnthonyCalandra/modern-cpp-features
