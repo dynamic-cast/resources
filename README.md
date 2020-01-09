@@ -24,3 +24,8 @@ A Tour of C++ by Bjarne Stroustrup
 Effective C++ by Scott Meyers
 > Is helpful to improve your existing knowledge of C++.
 > https://doc.lagout.org/programmation/C/Addison.Wesley.Effective.CPP.3rd.Edition.May.2005.pdf
+
+# articles
+
+> Offers a list and a small introduction about C++ new features
+https://github.com/AnthonyCalandra/modern-cpp-features
