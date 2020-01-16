@@ -30,6 +30,14 @@ Note s means “string” when used on a string literal, and “seconds” when 
 ```
 - [ ] Compile-time integer sequences: std::integer_sequence
 - [ ] Std::make_unique
+```
+std::unique_ptr<SomeObject> a = new SomeObject(...)
+
+Accomplishes the same thing as: 
+std::unique_ptr<SomeObject> a = std::make_unique(SomeObject(...))
+
+However, make_unique() is preferable because... {need to finish understanding...}
+
 - [ ] Shared mutexes and locking: std::shared_timed_mutex
 - [ ] Heterogeneous lookup in associative containers
 - [ ] Tuple addressing via type: std::get\<T\>()
