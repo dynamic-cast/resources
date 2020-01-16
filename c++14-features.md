@@ -33,6 +33,7 @@ Note s means “string” when used on a string literal, and “seconds” when 
 - [ ] Compile-time integer sequences: std::integer_sequence: https://github.com/AnthonyCalandra/modern-cpp-features#user-defined-literals-for-standard-library-types
 
 Example: https://en.cppreference.com/w/cpp/utility/integer_sequence
+Example2: https://stackoverflow.com/questions/41660062/how-to-construct-an-stdarray-with-index-sequence
 
 - [ ] Std::make_unique
 ```
