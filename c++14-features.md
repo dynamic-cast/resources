@@ -20,6 +20,13 @@ An extra method for declaring a delete operator was added. You can declare a glo
 
 ## Library Features:
 - [ ] User-defined literals for standard library types, \<chrono\> and \<string\>
+```C++11 added user-defined literals, but didn’t use them in the standard library. Now some very useful and popular ones work:
+
+auto a_string = "hello there"s;   // type std::string
+auto a_minute = 60s;              // type std::chrono::duration = 60 seconds
+auto a_day    = 24h;              // type std::chrono::duration = 24 hours
+Note s means “string” when used on a string literal, and “seconds” when used on an integer literal, without ambiguity.
+```
 - [ ] Compile-time integer sequences: std::integer_sequence
 - [ ] Std::make_unique
 - [ ] Shared mutexes and locking: std::shared_timed_mutex
