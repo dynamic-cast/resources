@@ -6,8 +6,10 @@ C++14 Features
 - [x] Generic lambda expressions: https://github.com/AnthonyCalandra/modern-cpp-features#generic-lambda-expressions
 - [x] Lambda capture initialisers (init-capture): https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-initializers
 - [x] Return type deduction for normal functions: https://en.wikipedia.org/wiki/C%2B%2B14#Function_return_type_deduction
-- [ ] decltype(auto) - Alternate type deduction on declaration:
+- [x] decltype(auto) - Alternate type deduction on declaration:
 https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto
+trailing types: https://www.ibm.com/developerworks/community/blogs/5894415f-be62-4bc0-81c5-3956e82276f3/entry/introduction_to_the_c_11_feature_trailing_return_types?lang=en
+proposal: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3638.html
 - [x] Relaxing constraints on constexpr functions: https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions https://www.modernescpp.com/index.php/constexpr-functions
 - [x] Variable templates http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3651.pdf
 - [x] [[deprecated]] attribute: https://josephmansfield.uk/articles/marking-deprecated-c++14.html
