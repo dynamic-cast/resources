@@ -21,7 +21,7 @@ Super concise example from the proposal: http://www.open-std.org/jtc1/sc22/wg21/
 An extra method for declaring a delete operator was added. You can declare a global delete operator that takes a `void*` to the memory you want to delete as well as the size of that memory. Useful in low-level use cases, e.g. when working with HW sensors or in embedded contexts (we think).
 
 ## Library Features:
-- [ ] User-defined literals for standard library types, \<chrono\> and \<string\>: https://en.cppreference.com/w/cpp/chrono/operator%22%22s
+- [x] User-defined literals for standard library types, \<chrono\> and \<string\>: https://en.cppreference.com/w/cpp/chrono/operator%22%22s
 ```
 C++11 added user-defined literals, but didn’t use them in the standard library. Now some very useful and popular ones work:
 
