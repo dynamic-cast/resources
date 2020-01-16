@@ -35,9 +35,9 @@ std::unique_ptr<SomeObject> a = new SomeObject(...)
 
 Accomplishes the same thing as: 
 std::unique_ptr<SomeObject> a = std::make_unique(SomeObject(...))
-```
 
 However, make_unique() is preferable because... {need to finish understanding...}
+```
 
 - [ ] Shared mutexes and locking: std::shared_timed_mutex
 - [ ] Heterogeneous lookup in associative containers
