@@ -48,8 +48,10 @@ However, make_unique() is preferable because... {need to finish understanding...
 - [ ] Shared mutexes and locking: std::shared_timed_mutex
 - [ ] Heterogeneous lookup in associative containers
 - [ ] Tuple addressing via type: std::get\<T\>()
+
 Gets an element by type. Raises a compilation error if you there is more than one of the same type in the tuple.
 https://en.wikipedia.org/wiki/C%2B%2B14
+
 - [ ] Constexpr for: \<chrono\>, \<complex\>, \<array\>, \<init_list\>, \<utility\>, \<tuple\>
 - [ ] Improved std::integral_constant
 - [ ] Null forward iterators
