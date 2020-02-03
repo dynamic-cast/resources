@@ -80,6 +80,7 @@ static_assert(two_t()*2 == four_t(), "2*2 != 4");
 
 - [ ] Null forward iterators
 - [ ] Std::quoted
+http://www.open-std.org/JTC1/sc22/WG21/docs/papers/2013/n3654.html
 - [ ] std::exchange
 - [ ] “Fixing constexpr member functions without const”
 - [ ] Dual-Range std::equal, std::is_permutation, std::mismatch
