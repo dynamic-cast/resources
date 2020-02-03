@@ -64,6 +64,20 @@ https://en.wikipedia.org/wiki/C%2B%2B14#Tuple_addressing_via_type
 
 - [ ] Constexpr for: \<chrono\>, \<complex\>, \<array\>, \<init_list\>, \<utility\>, \<tuple\>
 - [ ] Improved std::integral_constant
+
+The `std::integral_constant`'s value can now be retrieved also using an `operator()`.
+```
+using two_t = std::integral_constant<int, 2>;
+using four_t = std::integral_constant<int, 4>;
+
+// Old option
+static_assert(two_t::value*2 == four_t::value, "2*2 != 4");
+
+// New option
+static_assert(two_t()*2 == four_t(), "2*2 != 4");
+```
+`std::integral_constant` is used for metaprogramming: https://en.cppreference.com/w/cpp/types/integral_constant
+
 - [ ] Null forward iterators
 - [ ] Std::quoted
 - [ ] std::exchange
