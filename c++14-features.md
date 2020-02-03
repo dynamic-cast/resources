@@ -60,7 +60,7 @@ A comprehensive example is given in this blog post: https://www.bfilipek.com/201
 - [ ] Tuple addressing via type: std::get\<T\>()
 
 Gets an element by type. Raises a compilation error if you there is more than one of the same type in the tuple.
-https://en.wikipedia.org/wiki/C%2B%2B14
+https://en.wikipedia.org/wiki/C%2B%2B14#Tuple_addressing_via_type
 
 - [ ] Constexpr for: \<chrono\>, \<complex\>, \<array\>, \<init_list\>, \<utility\>, \<tuple\>
 - [ ] Improved std::integral_constant
