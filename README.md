@@ -1,5 +1,7 @@
 # resources
 Helpful resources for general purpose C++ :)
+> https://github.com/AnthonyCalandra/modern-cpp-features
+> https://en.wikipedia.org/wiki/C%2B%2B14
 
 # newsletters
 Bartek's coding blog
