@@ -30,7 +30,7 @@ auto a_minute = 60s;              // type std::chrono::duration = 60 seconds
 auto a_day    = 24h;              // type std::chrono::duration = 24 hours
 Note s means “string” when used on a string literal, and “seconds” when used on an integer literal, without ambiguity.
 ```
-- [ ] Compile-time integer sequences: std::integer_sequence: https://github.com/AnthonyCalandra/modern-cpp-features#user-defined-literals-for-standard-library-types
+- [x] Compile-time integer sequences: std::integer_sequence: https://github.com/AnthonyCalandra/modern-cpp-features#user-defined-literals-for-standard-library-types
 
   * Example1: https://en.cppreference.com/w/cpp/utility/integer_sequence
   * Example2: https://stackoverflow.com/questions/41660062/how-to-construct-an-stdarray-with-index-sequence
