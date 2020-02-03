@@ -35,7 +35,7 @@ Note s means “string” when used on a string literal, and “seconds” when 
   * Example1: https://en.cppreference.com/w/cpp/utility/integer_sequence
   * Example2: https://stackoverflow.com/questions/41660062/how-to-construct-an-stdarray-with-index-sequence
 
-- [ ] Std::make_unique
+- [x] Std::make_unique
 ```
 std::unique_ptr<SomeObject> a = new SomeObject(...)
 
