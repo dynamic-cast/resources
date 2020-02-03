@@ -52,6 +52,9 @@ However, make_unique() is preferable because it forces the creation and deletion
     * interesting trivia on why `std:shared_timed_mutex` was added in c++14 but `std::shared_mutex` only in c++17 https://stackoverflow.com/questions/40207171/why-shared-timed-mutex-is-defined-in-c14-but-shared-mutex-in-c17
 
 - [ ] Heterogeneous lookup in associative containers
+
+Wikipedia has a good explanation: https://en.wikipedia.org/wiki/C%2B%2B14#Heterogeneous_lookup_in_associative_containers
+A comprehensive example is given in this blog post: https://www.bfilipek.com/2019/05/heterogeneous-lookup-cpp14.html
 - [ ] Tuple addressing via type: std::get\<T\>()
 
 Gets an element by type. Raises a compilation error if you there is more than one of the same type in the tuple.
