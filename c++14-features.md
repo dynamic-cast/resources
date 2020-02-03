@@ -63,7 +63,7 @@ Gets an element by type. Raises a compilation error if you there is more than on
 https://en.wikipedia.org/wiki/C%2B%2B14#Tuple_addressing_via_type
 
 - [ ] Constexpr for: \<chrono\>, \<complex\>, \<array\>, \<init_list\>, \<utility\>, \<tuple\>
-- [ ] Improved std::integral_constant
+- [x] Improved std::integral_constant
 
 The `std::integral_constant`'s value can now be retrieved also using an `operator()`.
 ```
