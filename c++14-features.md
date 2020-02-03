@@ -42,13 +42,11 @@ std::unique_ptr<SomeObject> a = new SomeObject(...)
 Accomplishes the same thing as: 
 std::unique_ptr<SomeObject> a = std::make_unique(SomeObject(...))
 
-However, make_unique() is preferable because... {need to finish understanding...}
+However, make_unique() is preferable because it prevents a few cases which might result in a memory leak. 
 ```
 
 - [ ] Shared mutexes and locking: std::shared_timed_mutex
 - [ ] Heterogeneous lookup in associative containers
-Wikipedia gives a good explanation: https://en.wikipedia.org/wiki/C%2B%2B14#Heterogeneous_lookup_in_associative_containers
-A bit more in-depth one with examples can be found here: https://www.bfilipek.com/2019/05/heterogeneous-lookup-cpp14.html
 - [ ] Tuple addressing via type: std::get\<T\>()
 
 Gets an element by type. Raises a compilation error if you there is more than one of the same type in the tuple.
