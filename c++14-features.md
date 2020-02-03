@@ -42,8 +42,9 @@ std::unique_ptr<SomeObject> a = new SomeObject(...)
 Accomplishes the same thing as: 
 std::unique_ptr<SomeObject> a = std::make_unique(SomeObject(...))
 
-However, make_unique() is preferable because it prevents a few cases which might result in a memory leak. 
+However, make_unique() is preferable because it forces the creation and deletion of the unique_ptr to be atomic and prevents a few cases which might result in a memory leak. 
 ```
+https://www.learncpp.com/cpp-tutorial/15-5-stdunique_ptr/
 
 - [ ] Shared mutexes and locking: std::shared_timed_mutex
 - [ ] Heterogeneous lookup in associative containers
