@@ -46,7 +46,11 @@ However, make_unique() is preferable because it forces the creation and deletion
 ```
   * Example of memory leak: https://www.learncpp.com/cpp-tutorial/15-5-stdunique_ptr/
 
-- [ ] Shared mutexes and locking: std::shared_timed_mutex
+- [x] Shared timed mutexes and locking: std::shared_timed_mutex
+
+    * Documentation for `std::shared_timed_mutex`: https://en.cppreference.com/w/cpp/thread/shared_timed_mutex
+    * interesting trivia on why `std:shared_timed_mutex` was added in c++14 but `std::shared_mutex` only in c++17 https://stackoverflow.com/questions/40207171/why-shared-timed-mutex-is-defined-in-c14-but-shared-mutex-in-c17
+
 - [ ] Heterogeneous lookup in associative containers
 - [ ] Tuple addressing via type: std::get\<T\>()
 
