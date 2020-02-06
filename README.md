@@ -4,6 +4,8 @@ Helpful resources for general purpose C++ :)
 
 > https://en.wikipedia.org/wiki/C%2B%2B14
 
+> https://stackoverflow.com/questions/tagged/c++-faq
+
 # newsletters
 Bartek's coding blog
 > https://www.bfilipek.com/
