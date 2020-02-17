@@ -96,3 +96,10 @@ If C++14 `constexpr` member functions are not declared `const`, they are `mutabl
 In C++11 all `constexpr` member functions were `const` by default, whether or not they were declared as `const` functions in the function signature.
 
 - [ ] Dual-Range std::equal, std::is_permutation, std::mismatch http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3671.html
+E.g for std::mismatch function;
+std::pair with iterators to the first two non-equal elements.
+(until C++14)
+If no mismatches are found when the comparison reaches last1, the pair holds last1 and the corresponding iterator from the second range. The behavior is undefined if the second range is shorter than the first range.	
+(since C++14)
+If no mismatches are found when the comparison reaches last1 or last2, whichever happens first, the pair holds the end iterator and the corresponding iterator from the other range.	
+
