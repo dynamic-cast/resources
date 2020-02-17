@@ -62,7 +62,10 @@ A comprehensive example is given in this blog post: https://www.bfilipek.com/201
 Gets an element by type. Raises a compilation error if you there is more than one of the same type in the tuple.
 https://en.wikipedia.org/wiki/C%2B%2B14#Tuple_addressing_via_type
 
-- [ ] Constexpr for: \<chrono\>, \<complex\>, \<array\>, \<init_list\>, \<utility\>, \<tuple\>
+- [x] Constexpr for: \<chrono\>, \<complex\>, \<array\>, \<init_list\>, \<utility\>, \<tuple\>
+
+Base types and methods of these std libraries are marked as `constexpr` as of c++14 and can be used in user-defined `constexpr` entities.
+
 - [x] Improved std::integral_constant
 
 The `std::integral_constant`'s value can now be retrieved also using an `operator()`.
@@ -88,4 +91,8 @@ http://www.open-std.org/JTC1/sc22/WG21/docs/papers/2013/n3654.html
  * Potentially helpful when writing move assignment or constructors.
 example at the bottom of page: https://docs.w3cub.com/cpp/utility/exchange/
 - [ ] “Fixing constexpr member functions without const”
+
+If C++14 `constexpr` member functions are not declared `const`, they are `mutable` and may modify the objects of which they are members, as long as that object's lifetime started during the execution of the `constexpr` method.
+In C++11 all `constexpr` member functions were `const` by default, whether or not they were declared as `const` functions in the function signature.
+
 - [ ] Dual-Range std::equal, std::is_permutation, std::mismatch http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3671.html
