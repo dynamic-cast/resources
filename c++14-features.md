@@ -138,7 +138,7 @@ example at the bottom of page: https://docs.w3cub.com/cpp/utility/exchange/
 If C++14 `constexpr` member functions are not declared `const`, they are `mutable` and may modify the objects of which they are members, as long as that object's lifetime started during the execution of the `constexpr` method.
 In C++11 all `constexpr` member functions were `const` by default, whether or not they were declared as `const` functions in the function signature.
 
-- [ ] Dual-Range std::equal, std::is_permutation, std::mismatch http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3671.html
+- [x] Dual-Range std::equal, std::is_permutation, std::mismatch http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3671.html
 
 E.g for std::mismatch function;
 std::pair with iterators to the first two non-equal elements.
