@@ -10,7 +10,7 @@
 - [ ] constexpr
 - [x] mutexes/locking/etc
 - [ ] concurrency in c++ and beyond
-- [ ] template metaprogramming
+- [ ] template metaprogramming (Mariana)
 - [ ] OpenFrameworks intro (Camila)
 - [ ] SFINAE/tag dispatching
 - [ ] Bring Your Own Boost (a useful boost library show and tell)
