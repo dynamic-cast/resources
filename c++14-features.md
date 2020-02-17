@@ -86,6 +86,49 @@ static_assert(two_t()*2 == four_t(), "2*2 != 4");
 Note: Only *maybe ever* relevant if you're real deep into writing your own iterator...
 - [ ] Std::quoted
 http://www.open-std.org/JTC1/sc22/WG21/docs/papers/2013/n3654.html
+```
+int main()
+{
+    std::stringstream ss;
+    std::string in = "String with spaces, and embedded \"quotes\" too";
+    std::string out;
+ 
+    ss << std::quoted(in);
+    std::cout << "read in     [" << in << "]\n"
+              << "stored as   [" << ss.str() << "]\n";
+ 
+    ss >> std::quoted(out);
+    std::cout << "written out [" << out << "]\n";
+}
+```
+Will output:
+```
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+```
+Whereas:
+```
+int main()
+{
+    std::stringstream ss;
+    std::string in = "String with spaces, and embedded \"quotes\" too";
+    std::string out;
+ 
+    ss << in;
+    std::cout << "read in     [" << in << "]\n"
+              << "stored as   [" << ss.str() << "]\n";
+ 
+    ss >> std::quoted(out);
+    std::cout << "written out [" << out << "]\n";
+}
+```
+Will output, notice how line 2 and 3 changed: 
+```
+read in     [String with spaces, and embedded "quotes" too]
+stored as   [String with spaces, and embedded "quotes" too]
+written out [String]
+```
 - [ ] std::exchange
 ```Replaces the value of obj with new_value and returns the old value of obj. Not to be confused with std::swap, where swap takes in two parameters and swaps the values, and returns nothing.```
  * Potentially helpful when writing move assignment or constructors.
