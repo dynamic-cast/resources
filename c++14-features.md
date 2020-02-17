@@ -79,6 +79,9 @@ static_assert(two_t()*2 == four_t(), "2*2 != 4");
 `std::integral_constant` is used for metaprogramming: https://en.cppreference.com/w/cpp/types/integral_constant
 
 - [ ] Null forward iterators
+```A forward iterator that is initialized without reference to any container is called a null forward iterator. Null forward iterators always compare equal.
+```
+Note: Only relevant if you're real deep into writing your own iterator...
 - [ ] Std::quoted
 http://www.open-std.org/JTC1/sc22/WG21/docs/papers/2013/n3654.html
 - [ ] std::exchange
