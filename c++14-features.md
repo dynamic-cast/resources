@@ -129,7 +129,7 @@ read in     [String with spaces, and embedded "quotes" too]
 stored as   [String with spaces, and embedded "quotes" too]
 written out [String]
 ```
-- [ ] std::exchange
+- [x] std::exchange
 ```Replaces the value of obj with new_value and returns the old value of obj. Not to be confused with std::swap, where swap takes in two parameters and swaps the values, and returns nothing.```
  * Potentially helpful when writing move assignment or constructors.
 example at the bottom of page: https://docs.w3cub.com/cpp/utility/exchange/
