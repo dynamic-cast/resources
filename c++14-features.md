@@ -84,7 +84,7 @@ static_assert(two_t()*2 == four_t(), "2*2 != 4");
 - [x] Null forward iterators
 ```A forward iterator that is initialized without reference to any container is called a null forward iterator. Null forward iterators always compare equal.```
 Note: Only *maybe ever* relevant if you're real deep into writing your own iterator...
-- [ ] Std::quoted
+- [x] Std::quoted
 http://www.open-std.org/JTC1/sc22/WG21/docs/papers/2013/n3654.html
 ```
 int main()
