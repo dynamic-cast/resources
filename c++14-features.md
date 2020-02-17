@@ -87,4 +87,4 @@ http://www.open-std.org/JTC1/sc22/WG21/docs/papers/2013/n3654.html
 ```Replaces the value of obj with new_value and returns the old value of obj. Not to be confused with std::swap, where swap takes in two parameters and swaps the values, and returns nothing.```
  * Potentially helpful when writing move assignment or constructors.
 - [ ] “Fixing constexpr member functions without const”
-- [ ] Dual-Range std::equal, std::is_permutation, std::mismatch
+- [ ] Dual-Range std::equal, std::is_permutation, std::mismatch http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3671.html
