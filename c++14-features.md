@@ -133,7 +133,7 @@ written out [String]
 ```Replaces the value of obj with new_value and returns the old value of obj. Not to be confused with std::swap, where swap takes in two parameters and swaps the values, and returns nothing.```
  * Potentially helpful when writing move assignment or constructors.
 example at the bottom of page: https://docs.w3cub.com/cpp/utility/exchange/
-- [ ] “Fixing constexpr member functions without const”
+- [x] “Fixing constexpr member functions without const”
 
 If C++14 `constexpr` member functions are not declared `const`, they are `mutable` and may modify the objects of which they are members, as long as that object's lifetime started during the execution of the `constexpr` method.
 In C++11 all `constexpr` member functions were `const` by default, whether or not they were declared as `const` functions in the function signature.
