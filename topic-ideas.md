@@ -4,7 +4,7 @@
 - [ ] c++17 parallelism
 - [ ] c++17 move semantics
 - [ ] c++17 std::string_view
-- [ ] c++17 std::variant/optional
+- [ ] c++17 std::variant/optional (Erica)
 - [ ] c++ memory model
 - [ ] inline keyword
 - [ ] constexpr
