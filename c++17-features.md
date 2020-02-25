@@ -1,74 +1,74 @@
 C++17 Features: https://en.cppreference.com/w/cpp/compiler_support
 
 ## Language Features
-- [] New auto rules for direct-list-initialization
-- [] static_assert with no message
-- [] typename in a template template parameter
-- [] Removing trigraphs
-- [] Nested namespace definition
-- [] Attributes for namespaces and enumerators
-- [] u8 character literals
-- [] Allow constant evaluation for all non-type template arguments
-- [] Fold Expressions
-- [] Unary fold expressions and empty parameter packs
-- [] Remove Deprecated Use of the register Keyword
-- [] Remove Deprecated operator++(bool)
-- [] Make exception specifications part of the type system
-- [] Aggregate initialization of classes with base classes
-- [] __has_include in preprocessor conditionals
-- [] DR: New specification for inheriting constructors (DR1941 et al)
-- [] Lambda capture of *this
-- [] Direct-list-initialization of enumerations
-- [] constexpr lambda expressions
-- [] Differing begin and end types in range-based for
-- [] [[fallthrough]] attribute
-- [] [[nodiscard]] attribute
-- [] [[maybe_unused]] attribute
-- [] Hexadecimal floating-point literals
-- [] Using attribute namespaces without repetition
-- [] Dynamic memory allocation for over-aligned data
-- [] Class template argument deduction
-- [] Non-type template parameters with auto type
-- [] Guaranteed copy elision
-- [] Replacement of class objects containing reference members
-- [] Stricter expression evaluation order
-- [] Structured Bindings
-- [] Ignore unknown attributes
-- [] constexpr if statements
-- [] init-statements for if and switch
-- [] Inline variables
-- [] Removing Deprecated Exception Specifications
-- [] Pack expansions in using-declarations
-- [] DR: Matching of template template-arguments excludes compatible templates
+- [ ] New auto rules for direct-list-initialization
+- [ ] static_assert with no message
+- [ ] typename in a template template parameter
+- [ ] Removing trigraphs
+- [ ] Nested namespace definition
+- [ ] Attributes for namespaces and enumerators
+- [ ] u8 character literals
+- [ ] Allow constant evaluation for all non-type template arguments
+- [ ] Fold Expressions
+- [ ] Unary fold expressions and empty parameter packs
+- [ ] Remove Deprecated Use of the register Keyword
+- [ ] Remove Deprecated operator++(bool)
+- [ ] Make exception specifications part of the type system
+- [ ] Aggregate initialization of classes with base classes
+- [ ] __has_include in preprocessor conditionals
+- [ ] DR: New specification for inheriting constructors (DR1941 et al)
+- [ ] Lambda capture of *this
+- [ ] Direct-list-initialization of enumerations
+- [ ] constexpr lambda expressions
+- [ ] Differing begin and end types in range-based for
+- [ ] [[fallthrough]] attribute
+- [ ] [[nodiscard]] attribute
+- [ ] [[maybe_unused]] attribute
+- [ ] Hexadecimal floating-point literals
+- [ ] Using attribute namespaces without repetition
+- [ ] Dynamic memory allocation for over-aligned data
+- [ ] Class template argument deduction
+- [ ] Non-type template parameters with auto type
+- [ ] Guaranteed copy elision
+- [ ] Replacement of class objects containing reference members
+- [ ] Stricter expression evaluation order
+- [ ] Structured Bindings
+- [ ] Ignore unknown attributes
+- [ ] constexpr if statements
+- [ ] init-statements for if and switch
+- [ ] Inline variables
+- [ ] Removing Deprecated Exception Specifications
+- [ ] Pack expansions in using-declarations
+- [ ] DR: Matching of template template-arguments excludes compatible templates
 
 ## Library Features
-- [] std::void_t
-- [] std::uncaught_exceptions()
-- [] std::size(), std::empty() and std::data()
-- [] Improving std::pair and std::tuple
-- [] std::bool_constant
-- [] std::shared_mutex (untimed)
-- [] Type traits variable templates
-- [] Logical operator type traits
-- [] Standardization of Parallelism TS
-- [] std::clamp()
-- [] Hardware interference size
-- [] (nothrow-)swappable traits
-- [] File system library
-- [] std::string_view
-- [] std::any
-- [] std::optional
-- [] Polymorphic memory resources
-- [] Mathematical special functions
-- [] C++17 should refer to C++11 instead of C99
-- [] Splicing Maps and Sets
-- [] std::variant
-- [] std::make_from_tuple()
-- [] std::has_unique_object_representations
-- [] std::gcd() and std::lcm()
-- [] std::not_fn
-- [] Elementary string conversions
-- [] std::shared_ptr and std::weak_ptr with array support
-- [] std::scoped_lock
-- [] std::byte
-- [] std::is_aggregate
+- [ ] std::void_t
+- [ ] std::uncaught_exceptions()
+- [ ] std::size(), std::empty() and std::data()
+- [ ] Improving std::pair and std::tuple
+- [ ] std::bool_constant
+- [ ] std::shared_mutex (untimed)
+- [ ] Type traits variable templates
+- [ ] Logical operator type traits
+- [ ] Standardization of Parallelism TS
+- [ ] std::clamp()
+- [ ] Hardware interference size
+- [ ] (nothrow-)swappable traits
+- [ ] File system library
+- [ ] std::string_view
+- [ ] std::any
+- [ ] std::optional
+- [ ] Polymorphic memory resources
+- [ ] Mathematical special functions
+- [ ] C++17 should refer to C++11 instead of C99
+- [ ] Splicing Maps and Sets
+- [ ] std::variant
+- [ ] std::make_from_tuple()
+- [ ] std::has_unique_object_representations
+- [ ] std::gcd() and std::lcm()
+- [ ] std::not_fn
+- [ ] Elementary string conversions
+- [ ] std::shared_ptr and std::weak_ptr with array support
+- [ ] std::scoped_lock
+- [ ] std::byte
+- [ ] std::is_aggregate
