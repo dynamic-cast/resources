@@ -6,6 +6,9 @@ Helpful resources for general purpose C++ :)
 
 > https://stackoverflow.com/questions/tagged/c++-faq
 
+# cpp core guidelines
+> https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
 # newsletters
 Bartek's coding blog
 > https://www.bfilipek.com/
