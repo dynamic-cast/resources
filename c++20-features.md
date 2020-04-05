@@ -70,13 +70,76 @@ C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 - [ ] DR: Converting from T* to bool should be considered narrowing
 
 ## Library Features
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] std::endian
+- [ ] Extending std::make_shared() to support arrays
+- [ ] Floating point atomic
+- [ ] Synchronized buffered ostream
+- [ ] constexpr for <algorithm> and <utility>
+- [ ] More constexpr for <complex>
+- [ ] Make std::memory_order a scoped enumeration
+- [ ] String prefix and suffix checking
+- [ ] Library support for operator<=> <compare>
+- [ ] std::remove_cvref
+- [ ] [[nodiscard]] in the standard library
+- [ ] Using std::move in numeric algorithms
+- [ ] Utility to convert a pointer to a raw pointer
+- [ ] Atomic std::shared_ptr and std::weak_ptr
+- [ ] std::span
+- [ ] Calendar and timezone
+- [ ] <version>
+- [ ] Comparing unordered containers
+- [ ] ConstexprIterator requirements
+- [ ] std::basic_string::reserve() should not shrink
+- [ ] std::atomic_ref
+- [ ] contains() member function of associative containers
+- [ ] DR: Guaranteed copy elision for piecewise construction
+- [ ] std::bit_cast()
+- [ ] Integral power-of-2 operations
+- [ ] Improving the return value of erase-like algorithms
+- [ ] std::destroying_delete
+- [ ] std::is_nothrow_convertible
+- [ ] Add shift to <algorithm>
+- [ ] Constexpr for std::swap() and swap related functions
+- [ ] std::type_identity
+- [ ] Concepts library
+- [ ] constexpr comparison operators for std::array
+- [ ] std::unwrap_ref_decay and std::unwrap_reference
+- [ ] std::bind_front()
+- [ ] std::reference_wrapper for incomplete types
+- [ ] Fixing operator>>(basic_istream&, CharT*)
+- [ ] Library support for char8_t
+- [ ] Utility functions to implement uses-allocator construction
+- [ ] DR: std::variant and std::optional should propagate copy/move triviality
+- [ ] A sane std::variant converting constructor
+- [ ] std::function's move constructor should be noexcept
+- [ ] The One Ranges Proposal
+- [ ] Heterogeneous lookup for unordered containers
+- [ ] <chrono> zero(), min(), and max() should be noexcept
+- [ ] constexpr in std::pointer_traits
+- [ ] std::assume_aligned()
+- [ ] Remove comparison operators of std::span
+- [ ] Make stateful allocator propagation more consistent for operator+(basic_string)
+- [ ] Consistent container erasure
+- [ ] std::lerp() and std::midpoint()
+- [ ] Usability enhancements for std::span
+- [ ] DR: Make create_directory() Intuitive
+- [ ] std::ssize() and unsigned extent for std::span
+- [ ] Traits for (un)bounded arrays
+- [ ] std::to_array()
+- [ ] Efficient access to std::basic_stringbuf’s Buffer
+- [ ] Layout-compatibility and pointer-interconvertibility traits
+- [ ] Bit operations
+- [ ] Mathematical constants
+- [ ] Text formatting
+- [ ] std::stop_token and std::jthread
+- [ ] constexpr std::allocator and related utilities
+- [ ] constexpr std::string
+- [ ] constexpr std::vector
+- [ ] Input range adaptors
+- [ ] constexpr std::invoke() and related utilities
+- [ ] Atomic waiting and notifying, std::counting_semaphore, std::latch and std::barrier
+- [ ] std::source_location
+- [ ] Adding <=> to the standard library
+- [ ] constexpr default constructor of std::atomic and std::atomic_flag
+- [ ] constexpr for numeric algorithms
+- [ ] Safe integral comparisons
