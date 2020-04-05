@@ -2,7 +2,7 @@ C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 
 ## Language Features
 - [ ] Allow lambda-capture [=, this]
-- [ ] __VA_OPT__
+- [ ] \_\_VA_OPT\_\_
 - [ ] Designated initializers
 - [ ] template-parameter-list for generic lambdas
 - [ ] Default member initializers for bit-fields
@@ -74,11 +74,11 @@ C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 - [ ] Extending std::make_shared() to support arrays
 - [ ] Floating point atomic
 - [ ] Synchronized buffered ostream
-- [ ] constexpr for <algorithm> and <utility>
-- [ ] More constexpr for <complex>
+- [ ] constexpr for \<algorithm\> and \<utility\>
+- [ ] More constexpr for \<complex\>
 - [ ] Make std::memory_order a scoped enumeration
 - [ ] String prefix and suffix checking
-- [ ] Library support for operator<=> <compare>
+- [ ] Library support for operator <=> \<compare\>
 - [ ] std::remove_cvref
 - [ ] [[nodiscard]] in the standard library
 - [ ] Using std::move in numeric algorithms
@@ -86,7 +86,7 @@ C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 - [ ] Atomic std::shared_ptr and std::weak_ptr
 - [ ] std::span
 - [ ] Calendar and timezone
-- [ ] < version >
+- [ ] \<version\>
 - [ ] Comparing unordered containers
 - [ ] ConstexprIterator requirements
 - [ ] std::basic_string::reserve() should not shrink
@@ -98,7 +98,7 @@ C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 - [ ] Improving the return value of erase-like algorithms
 - [ ] std::destroying_delete
 - [ ] std::is_nothrow_convertible
-- [ ] Add shift to <algorithm>
+- [ ] Add shift to \<algorithm\>
 - [ ] Constexpr for std::swap() and swap related functions
 - [ ] std::type_identity
 - [ ] Concepts library
@@ -114,7 +114,7 @@ C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 - [ ] std::function's move constructor should be noexcept
 - [ ] The One Ranges Proposal
 - [ ] Heterogeneous lookup for unordered containers
-- [ ] <chrono> zero(), min(), and max() should be noexcept
+- [ ] \<chrono\> zero(), min(), and max() should be noexcept
 - [ ] constexpr in std::pointer_traits
 - [ ] std::assume_aligned()
 - [ ] Remove comparison operators of std::span
