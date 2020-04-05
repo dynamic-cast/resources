@@ -1,8 +1,82 @@
 C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 
 ## Language Features
-- [ ]
-
+- [ ] Allow lambda-capture [=, this]
+- [ ] __VA_OPT__
+- [ ] Designated initializers
+- [ ] template-parameter-list for generic lambdas
+- [ ] Default member initializers for bit-fields
+- [ ] Initializer list constructors in class template argument deduction
+- [ ] const&-qualified pointers to members
+- [ ] Concepts
+- [ ] Lambdas in unevaluated contexts
+- [ ] Three-way comparison operator
+- [ ] DR: Simplifying implicit lambda capture
+- [ ] init-statements for range-based for
+- [ ] Default constructible and assignable stateless lambdas
+- [ ] const mismatch with defaulted copy constructor
+- [ ] Access checking on specializations
+- [ ] ADL and function templates that are not visible
+- [ ] Less eager instantiation of constexpr functions
+- [ ] Attributes [[likely]] and [[unlikely]]
+- [ ] Make typename more optional
+- [ ] Pack expansion in lambda init-capture
+- [ ] Attribute [[no_unique_address]]
+- [ ] DR: Relaxing the structured bindings customization point finding rules
+- [ ] DR: Relaxing the range-for loop customization point finding rules
+- [ ] DR: Allow structured bindings to accessible members
+- [ ] Destroying operator delete
+- [ ] Class types in non-type template parameters
+- [ ] Deprecate implicit capture of this via [=]
+- [ ] explicit(bool)
+- [ ] Integrating feature-test macros
+- [ ] Prohibit aggregates with user-declared constructors
+- [ ] constexpr virtual function
+- [ ] Consistency improvements for comparisons
+- [ ] char8_t
+- [ ] std::is_constant_evaluated()
+- [ ] constexpr try-catch blocks
+- [ ] Immediate functions
+- [ ] Nested inline namespaces
+- [ ] Yet another approach for constrained declarations
+- [ ] Signed integers are two's complement
+- [ ] constexpr dynamic_cast and polymorphic typeid
+- [ ] Changing the active member of a union inside constexpr
+- [ ] Coroutines
+- [ ] Parenthesized initialization of aggregates
+- [ ] DR: Array size deduction in new-expressions
+- [ ] Modules
+- [ ] Stronger Unicode requirements
+- [ ] <=> != ==
+- [ ] DR: Explicitly defaulted functions with different exception specifications
+- [ ] Lambda capture and storage class specifiers of structured bindings
+- [ ] Permit conversions to arrays of unknown bound
+- [ ] constexpr container operations
+- [ ] Deprecating some uses of volatile
+- [ ] constinit
+- [ ] Deprecate comma operator in subscripts
+- [ ] [[nodiscard]] with message
+- [ ] Trivial default initialization in constexpr functions
+- [ ] Unevaluated asm-declaration in constexpr functions
+- [ ] using enum
+- [ ] Synthesizing three-way comparison for specified comparison category
+- [ ] DR: [[nodiscard]] for constructors
+- [ ] Class template argument deduction for alias templates
+- [ ] Class template argument deduction for aggregates
+- [ ] DR: Implicit move for more local objects and rvalue references
+- [ ] Allow defaulting comparisons by value
+- [ ] Remove std::weak_equality and std::strong_equality
+- [ ] Inconsistencies with non-type template parameters
+- [ ] DR: Converting from T* to bool should be considered narrowing
 
 ## Library Features
-- [ ]
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
