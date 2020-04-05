@@ -86,7 +86,7 @@ C++20 Features: https://en.cppreference.com/w/cpp/compiler_support
 - [ ] Atomic std::shared_ptr and std::weak_ptr
 - [ ] std::span
 - [ ] Calendar and timezone
-- [ ] <version>
+- [ ] < version >
 - [ ] Comparing unordered containers
 - [ ] ConstexprIterator requirements
 - [ ] std::basic_string::reserve() should not shrink
